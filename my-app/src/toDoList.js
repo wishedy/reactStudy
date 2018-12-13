@@ -19,8 +19,9 @@ class ToDoList extends Component{
     }
     addList(){
         let t = this;
+        let list =  [...t.state.listData,t.state.inputVal];
         t.setState({
-            listData: [...t.state.listData,t.state.inputVal]
+            listData:list
         });
         t.setState({
             inputVal: ''
