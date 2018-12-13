@@ -34,4 +34,5 @@
        //简单理解就是可以直接在js文件中编写html代码，但是在JSX中不仅可以使用html，同样也可以实现js功能，jsx识别组件必须是以大写开头
   ```
 ## 第三课 使用react实现一个toDoList功能（toDoList.js）
+- immutable 不要直接改变state的内容
 
