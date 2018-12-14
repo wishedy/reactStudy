@@ -4,7 +4,7 @@ class ToDoList extends Component{
         super(props);
          this.setVal = this.setVal.bind(this);
          this.addList = this.addList.bind(this);
-         this.deleteList = this.deleteList.bind(this);
+         //this.deleteList = this.deleteList.bind(this);
         this.state = {
             inputVal:"",
             listData:[]
@@ -46,7 +46,7 @@ class ToDoList extends Component{
                 {
                     this.state.listData.map((item,index)=>{
                             return (
-                                <li key={index} onClick={this.deleteList(index)}>{item}</li>
+                                <li key={index} onClick={this.deleteList.bind(this,index)}>{item}</li>
                             )
                     })
                 }
