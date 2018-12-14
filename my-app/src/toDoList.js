@@ -1,4 +1,6 @@
 import  React,{Component,Fragment} from 'react';
+import TodoItem from './TodoItem'
+import './style.css';
 class ToDoList extends Component{
     constructor(props){
         super(props);
@@ -20,33 +22,42 @@ class ToDoList extends Component{
     addList(){
         let t = this;
         let list =  [...t.state.listData,t.state.inputVal];
-        t.setState({
-            listData:list
-        });
-        t.setState({
-            inputVal: ''
+        t.setState(()=>{
+           return {
+               listData:list,
+               inputVal: ''
+           }
         });
     }
     deleteList(i){
         let t = this;
         let list = [...t.state.listData];
         list.splice(i,1);
-        this.setState({
-            listData:list
+        this.setState(()=>{
+           return {
+               listData:list
+           }
         });
+        /*this.setState({
+            listData:list
+        });*/
     }
     render(){
         return (
             <Fragment>
                 <div>
-                    <input type="text" value={this.state.inputVal} onChange={this.setVal}/>
+                    <label htmlFor="idName">这是个label</label>
+                    <input id="idName" className="input" type="text" value={this.state.inputVal} onChange={this.setVal}/>
                     <button onClick={this.addList}>提交</button>
                 </div>
             <ul>
                 {
                     this.state.listData.map((item,index)=>{
                             return (
-                                <li key={index} onClick={this.deleteList.bind(this,index)}>{item}</li>
+                                <Fragment key={index}>
+                                <TodoItem item={item} index={index} handleDelete={this.deleteList.bind(this)}/>
+                                {/*<li key={index} onClick={this.deleteList.bind(this,index)} dangerouslySetInnerHTML={{__html:item}}></li>*/}
+                                </Fragment>
                             )
                     })
                 }

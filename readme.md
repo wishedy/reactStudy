@@ -35,4 +35,16 @@
   ```
 ## 第三课 使用react实现一个toDoList功能（toDoList.js）
 - immutable 不要直接改变state的内容
+- jsx的语法细节
+  - 注释：单行注释{/*注释内容*/}，多行注释{//注释内容}
+  - 在jsx标签中不能使用class会与关键字冲突，需要使用className
+  - text和HTML的转义
+```JavaScript
+ dangerouslySetInnerHtml = {{__html:item}}
+```
+  - 在下面的情况下react会报错，因为for与关键字冲突，需要使用htmlFor代替
+```JavaScript
+<label for="idName"></label>
+                    <input id="idName" className="input" type="text" value={this.state.inputVal} onChange={this.setVal}/>
+```
 
