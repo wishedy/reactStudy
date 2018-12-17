@@ -1,5 +1,6 @@
 import  React,{Component,Fragment} from 'react';
-import TodoItem from './TodoItem'
+import TodoItem from './TodoItem';
+import Test from './test';
 import './style.css';
 class ToDoList extends Component{
     constructor(props){
@@ -13,10 +14,10 @@ class ToDoList extends Component{
         }
     }
     setVal(e){
-        console.log(e.target);
         let t = this;
+        console.log(t.input.value);
         t.setState({
-            inputVal: e.target.value
+            inputVal: t.input.value
         });
     }
     addList(){
@@ -27,6 +28,8 @@ class ToDoList extends Component{
                listData:list,
                inputVal: ''
            }
+        },()=>{
+            //setState本身是一个异步线程，如果在代码下面同步调用会出现数据不准的情况
         });
     }
     deleteList(i){
@@ -47,9 +50,10 @@ class ToDoList extends Component{
             <Fragment>
                 <div>
                     <label htmlFor="idName">这是个label</label>
-                    <input id="idName" className="input" type="text" value={this.state.inputVal} onChange={this.setVal}/>
+                    <input id="idName" className="input" type="text" value={this.state.inputVal} onChange={this.setVal} ref={(input)=>{this.input=input;}}/>
                     <button onClick={this.addList}>提交</button>
                 </div>
+                <Test content={this.state.inputVal}></Test>
             <ul>
                 {
                     this.state.listData.map((item,index)=>{

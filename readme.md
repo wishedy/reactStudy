@@ -47,4 +47,4 @@
 <label for="idName"></label>
                     <input id="idName" className="input" type="text" value={this.state.inputVal} onChange={this.setVal}/>
 ```
-
+## 第四课 在某一时刻组件会自动调用的函数
