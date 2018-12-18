@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import App from './App';
-import ToDoList from './toDoList';
+import ToDoList from './newTodoList';
 //import HelloWorld from './helloworld';
 //jsx语法的引入必须使用react
 ReactDOM.render(<ToDoList/>, document.getElementById('root'));
