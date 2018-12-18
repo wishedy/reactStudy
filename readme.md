@@ -45,6 +45,50 @@
   - 在下面的情况下react会报错，因为for与关键字冲突，需要使用htmlFor代替
 ```JavaScript
 <label for="idName"></label>
-                    <input id="idName" className="input" type="text" value={this.state.inputVal} onChange={this.setVal}/>
+<input id="idName" className="input" type="text" value={this.state.inputVal} onChange={this.setVal}/>
 ```
-## 第四课 在某一时刻组件会自动调用的函数
+## 第四课 组件的生命周期（在某一时刻组件会自动调用的函数）
+- Initinalization 这时候组件会初始化自己的数据（set props and state）
+- mounting(componentWillMount,render,componentDidMount)，只是在页面挂载的时候（组件第一次挂载到页面的时候）执行，其余时间改变dom的时候，只有render执行
+  - componentWillMount在页面挂载之前执行
+  - componentDidMount在组件被挂载的页面之后执行
+- updation 在组件更新的过程中涉及的生命函数,shouldComponentUpdate在组件即将跟新前调用，这个函数要求返回一个布尔值，布尔值真代表需要被更新，布尔值假代表不需要被更新
+  - 当props发生变化的时候（componentWillRecevieProp一个组件存在props的时候会调用，执行的之后会执行shouldComponentUpdate，false不会继续执行，true继续执行，componentWillUpdate,之后会执行render函数，最后执行componentDidUpdate）
+  - componentWillRecevieProp 当一个组件要从父组件接收参数，只要父组件的render函数被执行了，子组件的这个生命周期就会被执行，如果这个组件第一次存在于父组件中，不会被执行，如果这个组件已经存在于这个父组件中才会被执行
+  - 当states发生变化的时候调用的生命周期，shouldComponentUpdate,与上文同理，componentWillUpdate,render,componentDidUpdate
+ - Unmounting组件卸载的时候涉及到的生命周期
+   - componentWillUnMount 当这个组件即将被页面剔除的时候执行
+- 所有的生命周期函数都可以删除，唯独render函数
+- shouldComponetnUpdate主要是为了提高性能而设置的，并不是所有的数据改变都需要执行render函数，该生命钩子会接收两个参数，nextProps和nextState，可以根据相应的条件判断返回布尔值来确定渲染
+- 在页面初始化的时候，需要动态加载一些数据，也就是ajax请求，这个请求适合放在componentDidMount函数里，放在render函数中会出现一个死循环，之所以使用这个生命钩子是因为这个函数只会被执行一起，那么为什么不放在componentWillMount但是在react-native中或者在其他开发环境下该生命周期会有问题
+
+
+### 第五课 在react中发送ajax请求
+ - 使用axios,具体使用规则参见[此处](https://www.kancloud.cn/yunye/axios/234845)
+ - 使用Charies模拟接口请求（一个在本地模拟接口请求的工具，同时可以抓取本地浏览器的请求）（未完待续）
+### 第六课 react中的动画
+ - 借助css3进行布尔值切换className并通过transition实现
+ - 使用css动画效果，只要是通过keyframes
+ - 使用react-transition-group，详情见[官方文档](https://reactcommunity.org/react-transition-group/)
+```JavaScript
+import { CSSTransition } from 'react-transition-group';
+<CSSTransition
+              in={showValidationMessage}
+              timeout={300}
+              classNames="message"
+              unmountOnExit
+              onExited={() => {
+                this.setState({
+                  showValidationButton: true,
+                });
+              }}
+            >
+               <div></div>
+            </CSSTransition>
+```
+### 第七课 redux
+- redux = reducer+flux
+- redux的工作流程
+   -  向图书馆借书-->借什么书-->图书馆管理员接收到操作-->查询后将书籍给使用者
+   -  component-->action creators-->reducers-->store-->component
+- 使用[ant](https://ant.design/index-cn) redux重新编写todolist
