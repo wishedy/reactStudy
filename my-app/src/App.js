@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-
-class App extends Component {
-  render() {
+import React,{Component} from 'react';
+class App extends Component{
+  render (){
     return (
-      <div>hello world</div>
+        <div>
+          hello world
+        </div>
     );
   }
 }
