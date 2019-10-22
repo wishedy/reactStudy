@@ -1,35 +1,32 @@
-import React,{Component,Fragment} from 'react';
-import PropTypes from 'prop-types';
+import React,{Component} from 'react';
+import PropTypes from  'prop-types';
 class TodoItem extends Component{
     constructor(props){
+        //当组件的props或者state发生改变的时候，render函数就会重新执行
+        //当父组件的render函数执行的时候，前提是这个渲染和子组件有关系，子组建的render函数也会执行一次
         super(props);
-        this.handleClick = this.handleClick.bind(this);
-    }
-    handleClick(){
-        console.log(this.props.index);
-        const {index}  = this.props.index;
-        this.props.handleDelete(index);
+        this.handleItemDelete = this.handleItemDelete.bind(this);
     }
     render(){
-        const {item,test}  = this.props;
-        return (
-            <Fragment>
-                <li  dangerouslySetInnerHTML={{__html:item+'-'+test}} onClick={this.handleClick}></li>
-            </Fragment>
-        )
+        console.log('我是子组件的render函数');
+        const _this = this;
+        return <li key={_this.props.index} onClick={this.handleItemDelete}>{_this.props.content}-{_this.props.index}</li>
+    }
+    shouldComponentUpdate(nextProps,nextState){
+        return ((this.props.content+"")!==(nextProps.content+""));
+    }
+    handleItemDelete(){
+        const _this =this;
+        const {itemDelete,index}  = _this.props;
+        itemDelete(index);
     }
 }
-//PropTypes.string这时候如果某个对应的值没有传递，不做任何校验
-//PropTypes.string.isRequired与上文相反
-TodoItem.proppTypes = {
-    test:PropTypes.string.isRequired,
-    index:PropTypes.number,
-    item:PropTypes.string,
-    handleDelete:PropTypes.func
+TodoItem.propTypes={
+    content:PropTypes.string.isRequired,
+    itemDelete:PropTypes.func,
+    index:PropTypes.number
 };
-//props默认值
 TodoItem.defaultProps = {
-    test:'hello word'
+    test:"hello world"
 };
-//PropTypes具体使用文档https://reactjs.org/docs/typechecking-with-proptypes.html
-export default  TodoItem;
+export default TodoItem;
