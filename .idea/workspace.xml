@@ -2,43 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff04da8-f6a1-4834-98ef-f1ff146fea81" name="Default" comment="react起步学习">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Toggle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reactReduxStore/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reactReduxStore/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reactReduxTodolist/Todolist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/store/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/store/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/store/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/todolist/Todolist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/toggle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/public/api/headerList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/common/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/common/header/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/common/header/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/common/header/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/common/header/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/common/header/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/components/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/components/Recommend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/components/Topic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/components/Writer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/pages/home/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/Aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/max.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/maxWhitePic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/spin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/statics/write.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianshu/src/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/reactStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reactStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/markdown-navigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/my-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/TodoItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/helloworld.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/newTodoList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/toDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/toDoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,58 +48,69 @@
     <session id="862408869">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.103" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.148" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="6" />
+          <entry key="eot" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="27" />
-          <entry key="json" value="9" />
-          <entry key="md" value="7" />
+          <entry key="js" value="102" />
+          <entry key="json" value="12" />
+          <entry key="md" value="8" />
+          <entry key="png" value="2" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="6" />
           <entry key="HTML" value="2" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="27" />
-          <entry key="Markdown" value="7" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="12" />
+          <entry key="JavaScript" value="102" />
+          <entry key="Markdown" value="8" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="260" />
+          <entry key="css" value="282" />
           <entry key="html" value="6" />
-          <entry key="js" value="7301" />
-          <entry key="json" value="19" />
+          <entry key="js" value="16997" />
+          <entry key="json" value="98" />
           <entry key="md" value="2568" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="260" />
+          <entry key="CSS" value="282" />
           <entry key="HTML" value="6" />
-          <entry key="JSON" value="19" />
-          <entry key="JavaScript" value="7301" />
+          <entry key="JSON" value="98" />
+          <entry key="JavaScript" value="16796" />
+          <entry key="Less" value="201" />
           <entry key="Markdown" value="2568" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
@@ -116,22 +122,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="48">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1872">
+              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/components/Recommend.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/src/reactReduxTodolist/Todolist.js">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="338">
+                <caret line="172" column="7" lean-forward="true" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/store/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="816">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/components/List.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="47" column="66" lean-forward="true" selection-start-line="37" selection-end-line="47" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2952">
+              <caret line="125" column="49" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/components/Topic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="67" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -140,22 +214,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/reactReduxStore/index.js">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="264">
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/reactReduxStore/reducer.js">
+        <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#610#1823#0" />
+                <element signature="e#3351#4636#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,6 +249,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>input</find>
+      <find>setFocus</find>
+      <find>Detail</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>List</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -179,8 +268,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/helloworld.js" />
-        <option value="$PROJECT_DIR$/my-app/src/test.js" />
         <option value="$PROJECT_DIR$/my-app/src/toDoList.js" />
         <option value="$PROJECT_DIR$/my-app/src/newTodoList.js" />
         <option value="$PROJECT_DIR$/my-app/public/index.html" />
@@ -201,6 +288,37 @@
         <option value="$PROJECT_DIR$/my-app/src/reactReduxStore/reducer.js" />
         <option value="$PROJECT_DIR$/my-app/src/index.js" />
         <option value="$PROJECT_DIR$/my-app/src/reactReduxTodolist/Todolist.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/index.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/style.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/iconfont/iconfont.css" />
+        <option value="$PROJECT_DIR$/jianshu/src/iconfont/iconfont.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/statics/iconfont/iconfont.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/statics/iconfont/iconfont.css" />
+        <option value="$PROJECT_DIR$/jianshu/src/store/actionTypes.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/common/header/store/index.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/store/index.js" />
+        <option value="$PROJECT_DIR$/jianshu/api/headerList.json" />
+        <option value="$PROJECT_DIR$/jianshu/public/api/headerList.json" />
+        <option value="$PROJECT_DIR$/jianshu/src/common/header/store/constants.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/common/header/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/common/header/store/reducer.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/common/header/index.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/App.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/detail/style.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/detail/index.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/components/Writer.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/store/constants.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/store/index.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/index.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/components/Topic.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/components/List.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/common/header/style.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/style.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/store/reducer.js" />
+        <option value="$PROJECT_DIR$/jianshu/src/pages/home/components/Recommend.js" />
       </list>
     </option>
   </component>
@@ -218,6 +336,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/jianshu/package.json" />
       <path value="$PROJECT_DIR$/my-app/package.json" />
     </packageJsonPaths>
   </component>
@@ -232,6 +351,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,13 +362,86 @@
             <path>
               <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -270,11 +463,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reactReduxTodolist" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="reactStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +483,20 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workSpaces\reactStudy\jianshu\src\pages\home" />
+      <recent name="F:\workSpaces\reactStudy\jianshu\public" />
+      <recent name="F:\workSpaces\reactStudy\jianshu\src\common\header\store" />
+      <recent name="F:\workSpaces\reactStudy\jianshu\src\statics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workSpaces\reactStudy\jianshu\src\statics" />
+      <recent name="F:\workSpaces\reactStudy\jianshu\src\statics\iconfont" />
+      <recent name="F:\workSpaces\reactStudy\jianshu\src\iconfont" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -336,7 +548,15 @@
       <workItem from="1545176987026" duration="70000" />
       <workItem from="1545257215540" duration="189000" />
       <workItem from="1571011757466" duration="20896000" />
-      <workItem from="1571619028751" duration="34317000" />
+      <workItem from="1571619028751" duration="34610000" />
+      <workItem from="1571790539321" duration="649000" />
+      <workItem from="1571884994352" duration="8992000" />
+      <workItem from="1571965175244" duration="2890000" />
+      <workItem from="1571968134007" duration="7110000" />
+      <workItem from="1572221954068" duration="21608000" />
+      <workItem from="1572308398742" duration="1366000" />
+      <workItem from="1572312590706" duration="12643000" />
+      <workItem from="1572398481876" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="react起步学习">
       <created>1541331477241</created>
@@ -373,16 +593,31 @@
       <option name="project" value="LOCAL" />
       <updated>1545177009601</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="react起步学习">
+      <created>1571788791236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571788791236</updated>
+    </task>
+    <task id="LOCAL-00007" summary="react起步学习">
+      <created>1571788810005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571788810005</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75886000" />
+    <option name="totallyTimeSpent" value="132633000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7699317" visible="true" weight="0.23809524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7699317" visible="true" weight="0.25892857" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" sideWeight="0.23006834" side_tool="true" visible="true" weight="0.1748512" />
@@ -394,7 +629,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.45409837" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27868852" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -413,16 +648,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="react起步学习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-first-react/README.md" />
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/ClickCounter.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.css" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/test.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/helloworld.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/newTodoList.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/logo.svg" />
     <entry file="file://$PROJECT_DIR$/my-app/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/App.js" />
     <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
@@ -450,19 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="23" column="17" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/Todolist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,18 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="478">
-            <caret line="172" column="7" lean-forward="true" selection-end-line="172" selection-end-column="7" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/list.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -505,20 +702,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/store/reducer.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/store/sagas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="232">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/todolist/Todolist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-744">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/statics/iconfont/iconfont.json" />
+    <entry file="file://$PROJECT_DIR$/jianshu/src/statics/iconfont/iconfont.eot" />
+    <entry file="file://$PROJECT_DIR$/jianshu/src/statics/iconfont/iconfont.js" />
+    <entry file="file://$PROJECT_DIR$/jianshu/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/statics/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/statics/iconfont/iconfont.css" />
+    <entry file="file://$PROJECT_DIR$/jianshu/src/statics/max.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/store/actionCreators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="24">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#827#910#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/Todolist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2421">
+          <caret column="33" selection-start-column="25" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -529,30 +771,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/store/index.js">
+    <entry file="file://$PROJECT_DIR$/jianshu/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="24">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/store/sagas.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/reactReduxTodolist/Todolist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/todolist/Todolist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="840">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -565,31 +794,189 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/reactReduxStore/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/public/api/headerList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/store/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/store/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/detail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="22" lean-forward="true" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/components/Writer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="16" column="35" lean-forward="true" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/store/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/store/constants.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/store/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="816">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/components/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="47" column="66" lean-forward="true" selection-start-line="37" selection-end-line="47" selection-end-column="66" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/reactReduxTodolist/Todolist.js">
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="2952">
+          <caret line="125" column="49" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/components/Topic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="67" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/common/header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#610#1823#0" />
+            <element signature="e#3351#4636#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/src/pages/home/components/Recommend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="338">
+            <caret line="172" column="7" lean-forward="true" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

@@ -170,4 +170,11 @@ import { CSSTransition } from 'react-transition-group';
 - UI组件：傻瓜组件
 - 容器组件：聪明组件
 - UI组件负责页面的渲染，容器组件负责页面的逻辑
-- 无状态组件
+- 无状态组件：既一个函数，当一个普通组件只有一个render函数的时候，我们可以通过一个无状态组件替换掉普通的组件
+- redux中发送数据请求获取数据
+- 使用[redux-thunk](https://github.com/reduxjs/redux-thunk),原始的redux中，action只能是一个对象，通过redux-thunk中间件，可以接收action为一个函数
+- react-redux的使用
+###  第九课 一些优化注意点
+  - [PureComponent](https://segmentfault.com/a/1190000014979065?utm_source=tag-newest)
+  - import {Link} from "[react-router-dom](https://www.jianshu.com/p/a94c9a615f75)";减少对应路由 页的加载次数，如果是a标签跳转，会重新请求一次页面，同时页面会发白一次
+  - [style-components](https://www.jianshu.com/p/27788be90605)的相关知识点
